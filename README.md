@@ -3,7 +3,7 @@
  ***
  ##### Little cubes appears in order to form a big cube with CSS3 Grid Layout animation. You can also put the cursor over the cubes and they grow 
 
-![Grid layout](animation.gif)
+![Grid layout](animation2.gif)
 
 
 ***
