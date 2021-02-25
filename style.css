@@ -1,0 +1,237 @@
+.container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px;
+    margin: 5%;
+    grid-template-areas:
+    "area1 area2 area3 area4"
+    "area5 area6 area7 area8"
+    "area9 area10 area11 area12"
+    "area13 area14 area15 area16";
+}
+
+.item:hover {
+    transform: scale(1.2,1.2);
+}
+
+.aa {
+    grid-area: area1;
+    
+}
+
+.a {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 1s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.bb {
+    grid-area: area2;
+    
+}
+
+.b {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 2s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.cc {
+    grid-area: area3;
+}
+
+.c {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 3s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.dd {
+    grid-area: area4;
+}
+
+.d {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 4s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.ee {
+    grid-area: area5;
+}
+
+.e {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 5s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.ff {
+    grid-area: area6;
+}
+
+.f {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 6s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.gg {
+    grid-area: area7;
+}
+
+.g {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 7s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.hh {
+    grid-area: area8;
+}
+
+.h {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 8s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.ii {
+    grid-area: area9;
+}
+
+.i {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 9s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.jj {
+    grid-area: area10;
+}
+
+.j {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 10s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.kk {
+    grid-area: area11;
+}
+
+.k {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 11s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.ll {
+    grid-area: area12;
+}
+
+.l {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 12s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.mm {
+    grid-area: area13;
+}
+
+.m {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 13s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.nn {
+    grid-area: area14;
+}
+
+.n {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 14s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.oo {
+    grid-area: area15;
+}
+
+.o {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 15s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+
+.pp {
+    grid-area: area16;
+}
+
+.p {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadein;
+    animation-delay: 16s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: 1;
+}
+ 
+@keyframes fadein {
+    
+    from {
+        background-color: transparent;
+    }
+
+    to {
+        background-color: rgb(113, 175, 255);
+    }
+} 
